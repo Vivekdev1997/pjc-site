@@ -1,0 +1,110 @@
+@media (min-width: 300px) and (max-width: 764px) {
+    .sliderbg {
+        padding: 0;
+        height: 310px;
+    }
+    .sliderbg h1 { 
+        font-size: 24px;
+    }
+    .sliderbg p {
+        font-size: 16px;
+    }
+    .submitidea { 
+        width: 95%;
+        position: unset;
+        margin-left: 8px;
+        margin-bottom: 20px;
+    }
+    #searchInput { 
+        width: 80%;
+        right: 10%;
+        top: 3px;
+    }
+    .article-small-ls {  
+        padding: 15px 0;
+    } 
+
+    .right-art { 
+        margin-top: 10px;
+    }
+
+    .quickLnk{
+        margin-top: -15px;
+    }
+    
+    .article_right {
+        margin-top: 10px;
+    }
+    .ust_article label {
+        max-width: 260px;
+    }
+    .openAccImg {
+        transform: rotate(0deg);
+        right: 0; 
+        left: unset;
+        top: 5px;
+    }
+
+    .loginbtn {
+        float: unset;
+        text-align: center;
+    }
+
+    .article-small-ls .nav{
+        justify-content: center;
+    }
+
+    .article_btn {  
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .leftimg-foot p {
+        text-align: center;
+    }
+
+    .rightimg-foot { 
+        justify-content: center;
+    }
+
+    footer { 
+        padding: 50px 25px 30px 25px; 
+    }
+
+    .login-register {
+        width: 90%;
+    }
+    .login-register .nav-link {
+        padding: 10px 30px !important;
+    }
+}
+
+@media (min-width: 765px) and (max-width: 1180px) {
+    .loginbtn { 
+        text-align: center;
+        float: unset;
+    }
+
+    .article_right {
+        margin-top: 40px;
+    }
+
+    .article-small-ls {
+        padding: 20px 0;
+    }
+
+    .submitidea { 
+        width: 98%;
+        position: unset;
+        margin-left: 8px;
+        margin-bottom: 20px;
+    }
+
+    .login-register {
+        width: 50%;
+    }
+
+    .login-register .nav-link {
+        padding: 10px 55px !important;
+    }
+}

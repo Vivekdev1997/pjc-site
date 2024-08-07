@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap');
+
+body {
+    font-size: 16px !important;
+    color: #212529 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
+}
+
+a {
+    cursor: pointer;
+    color: #212529 !important;
+    text-decoration: unset !important;
+}
+
+a:hover {
+    color: #d53636 !important;
+    ;
+}
+
+p,
+ul {
+    color: #212529;
+    font-size: 14px;
+}
+
+/* header */
+.topbar {
+    background: #d53636;
+    padding: 5px;
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.socailm {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-bottom: 0;
+    margin-top: 3px;
+    justify-content: center;
+}
+
+.socailm li {
+    cursor: pointer;
+}
+
+.socailm li a {
+    color: #fff !important;
+}
+
+.loginbtn {
+    float: right;
+}
+
+.loginbtn a {
+    color: #fff !important;
+}
+
+.loginbtn a:hover {
+    color: #d53636 !important;
+}
+
+.custom-nav {
+    background: linear-gradient(to right, #d53636, #000);
+    border-bottom: 1px solid transparent;
+}
+
+.custom-nav .navbar-toggler {
+    background: white;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.header-fixed {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.custom-nav .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.custom-nav .nav-link {
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.custom-nav .nav-link:focus,
+.custom-nav .nav-link:hover {
+    color: rgb(255, 206, 206) !important;
+}
+
+.searchHdr {
+    position: relative;
+}
+
+#searchInput {
+    position: absolute;
+    display: none;
+    width: 200px;
+    right: 21%;
+}
+
+/* header end*/
+
+/* slider */
+ .sliderbg {
+    height: 270px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to right, #d53636, #000);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.sliderbg h1 { 
+    font-size: 30px;
+}
+
+.sliderbg p {
+    font-size: 17px;
+    color: #fff;
+    margin: 0;
+}
+
+/* slider end */
+
+/* article */
+.article-small-ls {
+    padding: 40px 0;
+    position: relative;
+}
+
+.submitidea {
+    position: absolute;
+    width: 300px;
+    background: linear-gradient(to right, #d90000, #f16262);
+    padding: 30px;
+    top: -80px;
+    right: 5%;
+    z-index: 99;
+    text-align: center;
+    color: #fff;
+}
+
+.submitidea p {
+    color: #fff;
+}
+
+.custom-btn {
+    background: #ffffff;
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+    color: #c83333;
+    border-radius: 2px;
+}
+
+.custom-btn:hover {
+    background: #d53636;
+    color: #ffffff;
+}
+
+.top-main-art {
+    display: flex;
+    padding: 10px 0;
+}
+
+.left-art {
+    padding: 3px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.left-art img {
+    width: 100%;
+}
+
+.right-art {
+    padding: 5px 0;
+}
+
+.right-art h6 {
+    font-weight: 600;
+}
+
+.article_info p {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.art_main {
+    padding-left: 5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.openAccImg {
+    transform: rotate(-90deg);
+    left: -60px;
+    position: absolute;
+    top: 40%;
+    width: 90px;
+}
+
+.badge {
+    --bs-badge-padding-y: 0.55em !important;
+}
+
+.articleImg {
+    width: 100%;
+}
+
+.ust_article {
+    padding: 12px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.ust_article label {
+    background: #d53636;
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 13px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.ust_article h6,
+.ust_article h3 {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.media {
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+.media i {
+    color: #d53636;
+    margin-top: 4px;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid #d53636 !important;
+    border-radius: 0 !important;
+    color: #d53636 !important;
+    padding: 8px 15px !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fff !important;
+    border: 1px solid #d53636 !important;
+    background-color: #d53636 !important;
+}
+
+.article_btn {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.article_btn li {
+    border-right: 2px solid #c1c3c8;
+    float: left;
+    padding: 0 10px;
+}
+
+.article_btn li:first-child {
+    padding-left: 0px;
+}
+
+.article_btn li:last-child {
+    padding-right: 0px;
+    border: none;
+}
+
+.article_right {
+    margin-top: 160px;
+}
+
+.article_right h6:before {
+    content: '';
+    border-top: 3px solid #e83d3d;
+    position: absolute;
+    top: -10px;
+    width: 50px;
+    ;
+}
+
+.article_right h6 {
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+}
+
+.past_issues ul {
+    display: inline-flex;
+    width: 100%;
+    gap: 2px;
+    font-size: 12px !important;
+    flex-wrap: wrap;
+}
+
+.past_issues ul li {
+    border: 1px solid #d53636;
+    border-radius: 25px;
+    padding: 3px 10px 5px 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.past_issues ul li:hover {
+    background: #d53636;
+    color: #fff;
+}
+
+.pastis-active {
+    background: #d53636;
+    color: #fff;
+}
+
+.past_issues ul li span {
+    font-size: 10px;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+.article_right ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+.article_right ul li {
+    margin-bottom: 5px;
+}
+
+.article_right ul a {
+    margin-left: 10px;
+}
+
+.article_right ul i {
+    color: #d53636;
+}
+
+#accordion {
+    font-size: 13px;
+}
+
+.card-header {
+    font-size: 15px;
+}
+
+/* article end */
+
+/* breadcrub section */
+.breadcrmb-head {
+    height: 80px;
+    color: #fff;
+    background: linear-gradient(to right, #000, #d53636);
+    background-position: center;
+    background: url(../images/bredcrumb.jpg) #00000096;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.breadcrmb-head h4 {
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.backBtn {
+    border-radius: 0;
+    color: #fff !important;
+    background: linear-gradient(to right, #d03535, #070202);
+    border: 0;
+}
+
+.backBtn:hover {
+    color: #fff !important;
+    background: linear-gradient(to right, #070202, #d03535);
+}
+
+/* breadcrub section end */
+
+/* page content  */
+.page-main-content .article_right {
+    margin-top: 30px;
+}
+
+.page-content {
+    padding: 20px 0;
+}
+
+.page-link {
+    border-radius: 0 !important;
+}
+
+.active>.page-link,
+.page-link.active {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #842222;
+    border-color: #771e1e;
+}
+
+/* page content end */
+
+/* login register */
+.login-register {
+    width: 35%;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid #d53636;
+}
+
+.login-register .nav {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.login-register .nav-link {
+    padding: 10px 74px !important;
+}
+
+.login-register .form-group {
+    margin-bottom: 10px;
+}
+
+/* login register end */
+
+/* footer */
+footer {
+    background: black;
+    padding: 50px 25px 5px 25px;
+    color: #e9e9e9;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+footer a,
+footer p {
+    color: #e9e9e9 !important;
+}
+
+footer h4 {
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 5px;
+    color: #e9e9e9;
+}
+
+.quickLnk {
+    margin-top: 27px;
+}
+
+footer ul li i {
+    color: #d53636;
+}
+
+.bottombar {
+    background: #000000;
+    color: #fffdfd;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.bottombar label {
+    margin-right: 22px;
+    margin-top: 15px;
+}
+
+.leftimg-foot p {
+    margin-top: 20px;
+}
+
+.rightimg-foot {
+    display: flex;
+    justify-content: right;
+}
+
+.rightimg-foot img {
+    width: 160px;
+}
+
+/* footer end */
